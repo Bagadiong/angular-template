@@ -5,6 +5,7 @@ import { HomeComponent } from './home/home.component';
 import { RouterModule } from '@angular/router';
 import { SharedModule } from '../shared/shared.module';
 import { HeaderComponent } from '../shared/header/header.component';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 
 
@@ -14,6 +15,7 @@ import { HeaderComponent } from '../shared/header/header.component';
     CommonModule,
     RouterModule,
     SharedModule,
+    NgbModule,
   ],
   exports:[
     DashboardComponent
